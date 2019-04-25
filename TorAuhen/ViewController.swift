@@ -28,6 +28,19 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func signInButton(_ sender: UIButton) {
+        goToWelfare()
+        
+    }
+    
+    func goToWelfare() -> Void {
+        performSegue(withIdentifier: "GoWelfare", sender: nil)
+    }
+    
+    
+    
+    
+    
 
 }   //Main Class
 
