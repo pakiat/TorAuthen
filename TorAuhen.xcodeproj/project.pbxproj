@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4233952271549D008C4EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233942271549D008C4EEE /* AppDelegate.swift */; };
+		8C4233972271549D008C4EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233962271549D008C4EEE /* ViewController.swift */; };
+		8C42339A2271549D008C4EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4233982271549D008C4EEE /* Main.storyboard */; };
+		8C42339C2271549E008C4EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C42339B2271549E008C4EEE /* Assets.xcassets */; };
+		8C42339F2271549E008C4EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42339D2271549E008C4EEE /* LaunchScreen.storyboard */; };
+		8C4233AA2271549E008C4EEE /* TorAuhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233A92271549E008C4EEE /* TorAuhenTests.swift */; };
+		8C4233B52271549F008C4EEE /* TorAuhenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233B42271549F008C4EEE /* TorAuhenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4233A62271549E008C4EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4233892271549D008C4EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4233902271549D008C4EEE;
+			remoteInfo = TorAuhen;
+		};
+		8C4233B12271549F008C4EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4233892271549D008C4EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4233902271549D008C4EEE;
+			remoteInfo = TorAuhen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4233912271549D008C4EEE /* TorAuhen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorAuhen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4233942271549D008C4EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C4233962271549D008C4EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C4233992271549D008C4EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C42339B2271549E008C4EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C42339E2271549E008C4EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C4233A02271549E008C4EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4233A52271549E008C4EEE /* TorAuhenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorAuhenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4233A92271549E008C4EEE /* TorAuhenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorAuhenTests.swift; sourceTree = "<group>"; };
+		8C4233AB2271549F008C4EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4233B02271549F008C4EEE /* TorAuhenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorAuhenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4233B42271549F008C4EEE /* TorAuhenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorAuhenUITests.swift; sourceTree = "<group>"; };
+		8C4233B62271549F008C4EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C42338E2271549D008C4EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233A22271549E008C4EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233AD2271549F008C4EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4233882271549D008C4EEE = {
+			isa = PBXGroup;
+			children = (
+				8C4233932271549D008C4EEE /* TorAuhen */,
+				8C4233A82271549E008C4EEE /* TorAuhenTests */,
+				8C4233B32271549F008C4EEE /* TorAuhenUITests */,
+				8C4233922271549D008C4EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4233922271549D008C4EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4233912271549D008C4EEE /* TorAuhen.app */,
+				8C4233A52271549E008C4EEE /* TorAuhenTests.xctest */,
+				8C4233B02271549F008C4EEE /* TorAuhenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4233932271549D008C4EEE /* TorAuhen */ = {
+			isa = PBXGroup;
+			children = (
+				8C4233942271549D008C4EEE /* AppDelegate.swift */,
+				8C4233962271549D008C4EEE /* ViewController.swift */,
+				8C4233982271549D008C4EEE /* Main.storyboard */,
+				8C42339B2271549E008C4EEE /* Assets.xcassets */,
+				8C42339D2271549E008C4EEE /* LaunchScreen.storyboard */,
+				8C4233A02271549E008C4EEE /* Info.plist */,
+			);
+			path = TorAuhen;
+			sourceTree = "<group>";
+		};
+		8C4233A82271549E008C4EEE /* TorAuhenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4233A92271549E008C4EEE /* TorAuhenTests.swift */,
+				8C4233AB2271549F008C4EEE /* Info.plist */,
+			);
+			path = TorAuhenTests;
+			sourceTree = "<group>";
+		};
+		8C4233B32271549F008C4EEE /* TorAuhenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4233B42271549F008C4EEE /* TorAuhenUITests.swift */,
+				8C4233B62271549F008C4EEE /* Info.plist */,
+			);
+			path = TorAuhenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C4233902271549D008C4EEE /* TorAuhen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4233B92271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhen" */;
+			buildPhases = (
+				8C42338D2271549D008C4EEE /* Sources */,
+				8C42338E2271549D008C4EEE /* Frameworks */,
+				8C42338F2271549D008C4EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorAuhen;
+			productName = TorAuhen;
+			productReference = 8C4233912271549D008C4EEE /* TorAuhen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4233A42271549E008C4EEE /* TorAuhenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4233BC2271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhenTests" */;
+			buildPhases = (
+				8C4233A12271549E008C4EEE /* Sources */,
+				8C4233A22271549E008C4EEE /* Frameworks */,
+				8C4233A32271549E008C4EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4233A72271549E008C4EEE /* PBXTargetDependency */,
+			);
+			name = TorAuhenTests;
+			productName = TorAuhenTests;
+			productReference = 8C4233A52271549E008C4EEE /* TorAuhenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C4233AF2271549F008C4EEE /* TorAuhenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4233BF2271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhenUITests" */;
+			buildPhases = (
+				8C4233AC2271549F008C4EEE /* Sources */,
+				8C4233AD2271549F008C4EEE /* Frameworks */,
+				8C4233AE2271549F008C4EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4233B22271549F008C4EEE /* PBXTargetDependency */,
+			);
+			name = TorAuhenUITests;
+			productName = TorAuhenUITests;
+			productReference = 8C4233B02271549F008C4EEE /* TorAuhenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4233892271549D008C4EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WVO;
+				TargetAttributes = {
+					8C4233902271549D008C4EEE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C4233A42271549E008C4EEE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C4233902271549D008C4EEE;
+					};
+					8C4233AF2271549F008C4EEE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C4233902271549D008C4EEE;
+					};
+				};
+			};
+			buildConfigurationList = 8C42338C2271549D008C4EEE /* Build configuration list for PBXProject "TorAuhen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4233882271549D008C4EEE;
+			productRefGroup = 8C4233922271549D008C4EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4233902271549D008C4EEE /* TorAuhen */,
+				8C4233A42271549E008C4EEE /* TorAuhenTests */,
+				8C4233AF2271549F008C4EEE /* TorAuhenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C42338F2271549D008C4EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C42339F2271549E008C4EEE /* LaunchScreen.storyboard in Resources */,
+				8C42339C2271549E008C4EEE /* Assets.xcassets in Resources */,
+				8C42339A2271549D008C4EEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233A32271549E008C4EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233AE2271549F008C4EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C42338D2271549D008C4EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4233972271549D008C4EEE /* ViewController.swift in Sources */,
+				8C4233952271549D008C4EEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233A12271549E008C4EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4233AA2271549E008C4EEE /* TorAuhenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4233AC2271549F008C4EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4233B52271549F008C4EEE /* TorAuhenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4233A72271549E008C4EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4233902271549D008C4EEE /* TorAuhen */;
+			targetProxy = 8C4233A62271549E008C4EEE /* PBXContainerItemProxy */;
+		};
+		8C4233B22271549F008C4EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4233902271549D008C4EEE /* TorAuhen */;
+			targetProxy = 8C4233B12271549F008C4EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4233982271549D008C4EEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4233992271549D008C4EEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C42339D2271549E008C4EEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C42339E2271549E008C4EEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4233B72271549F008C4EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C4233B82271549F008C4EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4233BA2271549F008C4EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C4233BB2271549F008C4EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C4233BD2271549F008C4EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorAuhen.app/TorAuhen";
+			};
+			name = Debug;
+		};
+		8C4233BE2271549F008C4EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorAuhen.app/TorAuhen";
+			};
+			name = Release;
+		};
+		8C4233C02271549F008C4EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorAuhen;
+			};
+			name = Debug;
+		};
+		8C4233C12271549F008C4EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TorAuhenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wvo.TorAuhenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorAuhen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C42338C2271549D008C4EEE /* Build configuration list for PBXProject "TorAuhen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4233B72271549F008C4EEE /* Debug */,
+				8C4233B82271549F008C4EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4233B92271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4233BA2271549F008C4EEE /* Debug */,
+				8C4233BB2271549F008C4EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4233BC2271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4233BD2271549F008C4EEE /* Debug */,
+				8C4233BE2271549F008C4EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4233BF2271549F008C4EEE /* Build configuration list for PBXNativeTarget "TorAuhenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4233C02271549F008C4EEE /* Debug */,
+				8C4233C12271549F008C4EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4233892271549D008C4EEE /* Project object */;
+}
