@@ -10,7 +10,11 @@ import UIKit
 
 class WelfareViewController: UIViewController {
     
-//    var id = []
+    var idArray: [Int] = []
+    var nameString: [String] = []
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
     
 
     override func viewDidLoad() {
@@ -55,7 +59,7 @@ class WelfareViewController: UIViewController {
                 guard let jsonArray = myDic["contacts"]! as? [[String: Any]] else {return}
                 
 //                print("jsonArray ==>> \(jsonArray)")
-                print("jsonArray0 ==>> \(jsonArray[0])")
+//                print("jsonArray0 ==>> \(jsonArray[0])")
                 
                 let myDic2: Dictionary<String,Any>?
                 
@@ -64,10 +68,21 @@ class WelfareViewController: UIViewController {
                         return
                     }
                     print(idShow)
+//                    self.idArray.append(idShow as! Int)
                     guard let MVS_AST_NAMEShow = myDic2["MVS_AST_NAME"] else {
                         return
                     }
+                    self.nameString.append(MVS_AST_NAMEShow as! String)
                     print(MVS_AST_NAMEShow)
+                }
+                
+                for name in self.nameString {
+                    print(name)
+                }
+                
+//                self.showView(name: self.nameString[0])
+                DispatchQueue.main.async {
+                    self.showView(name: self.nameString[0])
                 }
                 
             } catch let myError {
@@ -77,8 +92,14 @@ class WelfareViewController: UIViewController {
         }   // end of task
         task.resume()
         
+//        nameLabel.text = nameString[0]
+        
         
     } // ReadData
+    
+    func showView(name: String) -> Void {
+        nameLabel.text = name
+    }
     
 
 } //Main Class
