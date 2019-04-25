@@ -83,7 +83,22 @@
                     <view key="view" contentMode="scaleToFill" id="ItW-F1-aEH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ah2-Ea-QJs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Register" id="Tb9-bX-rYo">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="6kp-RT-Se9"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ah2-Ea-QJs" firstAttribute="leading" secondItem="JbL-Px-cei" secondAttribute="leading" id="Koy-uB-YGu"/>
+                            <constraint firstItem="Ah2-Ea-QJs" firstAttribute="trailing" secondItem="JbL-Px-cei" secondAttribute="trailing" id="ZZu-6q-g0g"/>
+                            <constraint firstItem="Ah2-Ea-QJs" firstAttribute="top" secondItem="JbL-Px-cei" secondAttribute="top" id="uJb-AJ-lYB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JbL-Px-cei"/>
                     </view>
                 </viewController>
