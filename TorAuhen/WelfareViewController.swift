@@ -9,6 +9,9 @@
 import UIKit
 
 class WelfareViewController: UIViewController {
+    
+//    var id = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +23,7 @@ class WelfareViewController: UIViewController {
     
     func readDataFromJSON() -> Void {
         
-        print("readData Work")
+//        print("readData Work")
         
         let urlString: String = "https://api.wvo.thaigov.net/welfare/history/10/102"
         guard let urlObject = URL(string: urlString) else {
@@ -38,7 +41,34 @@ class WelfareViewController: UIViewController {
             do {
                 
                 let jsonResponse = try JSONSerialization.jsonObject(with: dataResponse, options: [])
-                print(jsonResponse)
+//                print(jsonResponse)
+                
+                //let myDictionary: Dictionary = jsonResponse
+                
+                guard let myDic:Dictionary = jsonResponse as! Dictionary<String,Any> else {
+                    return
+
+                }
+                
+//                print(myDic["contactts"]!)
+                
+                guard let jsonArray = myDic["contacts"]! as? [[String: Any]] else {return}
+                
+//                print("jsonArray ==>> \(jsonArray)")
+                print("jsonArray0 ==>> \(jsonArray[0])")
+                
+                let myDic2: Dictionary<String,Any>?
+                
+                for myDic2: Dictionary in jsonArray {
+                    guard let idShow = myDic2["id"] else {
+                        return
+                    }
+                    print(idShow)
+                    guard let MVS_AST_NAMEShow = myDic2["MVS_AST_NAME"] else {
+                        return
+                    }
+                    print(MVS_AST_NAMEShow)
+                }
                 
             } catch let myError {
                 print(myError)
