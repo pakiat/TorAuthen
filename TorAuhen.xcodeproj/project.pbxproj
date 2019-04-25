@@ -14,6 +14,7 @@
 		8C42339F2271549E008C4EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42339D2271549E008C4EEE /* LaunchScreen.storyboard */; };
 		8C4233AA2271549E008C4EEE /* TorAuhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233A92271549E008C4EEE /* TorAuhenTests.swift */; };
 		8C4233B52271549F008C4EEE /* TorAuhenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4233B42271549F008C4EEE /* TorAuhenUITests.swift */; };
+		8CAF56FE22716C9900678E11 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF56FD22716C9900678E11 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C4233B02271549F008C4EEE /* TorAuhenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorAuhenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4233B42271549F008C4EEE /* TorAuhenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorAuhenUITests.swift; sourceTree = "<group>"; };
 		8C4233B62271549F008C4EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAF56FD22716C9900678E11 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8C4233942271549D008C4EEE /* AppDelegate.swift */,
 				8C4233962271549D008C4EEE /* ViewController.swift */,
 				8C4233982271549D008C4EEE /* Main.storyboard */,
+				8CAF56FD22716C9900678E11 /* RegisterViewController.swift */,
 				8C42339B2271549E008C4EEE /* Assets.xcassets */,
 				8C42339D2271549E008C4EEE /* LaunchScreen.storyboard */,
 				8C4233A02271549E008C4EEE /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAF56FE22716C9900678E11 /* RegisterViewController.swift in Sources */,
 				8C4233972271549D008C4EEE /* ViewController.swift in Sources */,
 				8C4233952271549D008C4EEE /* AppDelegate.swift in Sources */,
 			);

@@ -9,12 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+// For Outlet
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }   //Main Method
-
+    
+//    For Action
+    
+    
+    @IBAction func signUpButton(_ sender: UIButton) {
+        
+        print("You Click SignUP")
+        performSegue(withIdentifier: "GoRegister", sender: nil)
+        
+    }
+    
 
 }   //Main Class
 
